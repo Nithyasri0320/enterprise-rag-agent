@@ -1,0 +1,18 @@
+[
+  {
+    "question": "How many days of paid leave do full-time employees get per year?",
+    "ground_truth": "Full-time employees get 18 days of paid leave per year."
+  },
+  {
+    "question": "What is the refund window for the product?",
+    "ground_truth": "Customers can request a refund within 30 days of purchase."
+  },
+  {
+    "question": "What is the required code review process before merging to main?",
+    "ground_truth": "At least one approving review is required, and CI checks must pass before merging to main."
+  },
+  {
+    "question": "What is the capital of France?",
+    "ground_truth": "This information is not in the knowledge base."
+  }
+]

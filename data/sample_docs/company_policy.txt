@@ -1,0 +1,32 @@
+EMPLOYEE HANDBOOK — LEAVE AND ATTENDANCE POLICY
+
+Paid Leave
+Full-time employees are entitled to 18 days of paid leave per year, accrued
+monthly at a rate of 1.5 days per month. Unused leave up to 10 days may be
+carried over into the following calendar year. Leave requests must be
+submitted through the HR portal at least 5 working days in advance for
+planned leave.
+
+Sick Leave
+Employees receive 12 days of paid sick leave per year, separate from the
+paid leave allowance above. A medical certificate is required for sick
+leave exceeding 3 consecutive days.
+
+Work From Home Policy
+Employees may work from home up to 2 days per week with manager approval.
+Engineering teams on active on-call rotations must be available on video
+call within 15 minutes during business hours regardless of location.
+
+Maternity and Paternity Leave
+Maternity leave is 26 weeks as per statutory requirements. Paternity leave
+is 10 working days, to be taken within 6 months of the child's birth.
+
+Termination and Notice Period
+The standard notice period for resignation is 60 days for employees at the
+senior engineer level and above, and 30 days for all other full-time roles.
+During probation (first 90 days of employment), the notice period is 7 days.
+
+Reimbursement Policy
+Business travel expenses must be submitted within 15 days of the expense
+being incurred, with original receipts attached. Internet and phone
+reimbursement for remote employees is capped at ₹1,500 per month.

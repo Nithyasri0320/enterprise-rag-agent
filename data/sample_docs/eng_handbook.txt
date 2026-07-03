@@ -1,0 +1,34 @@
+ENGINEERING HANDBOOK — CODE REVIEW AND DEPLOYMENT
+
+Code Review Requirements
+All changes to the main branch must go through a pull request. At least one
+approving review from a team member is required before merging, and two
+approvals are required for changes touching authentication, billing, or
+data-deletion code paths. All CI checks (unit tests, lint, type check) must
+pass before a PR can be merged — this is enforced by branch protection
+rules and cannot be bypassed except by a repository admin in a documented
+incident.
+
+Commit and Branching Conventions
+Branch names follow the pattern type/short-description, e.g.
+feature/hybrid-retrieval or fix/bm25-index-corruption. Commit messages
+follow Conventional Commits (feat:, fix:, chore:, docs:, refactor:).
+
+Deployment Process
+Deployments to staging happen automatically on every merge to main.
+Production deployments require a manual approval step in the CI pipeline
+and are restricted to the release engineering team during business hours,
+Monday through Thursday, to avoid weekend incident response gaps.
+
+Incident Response
+Severity 1 incidents (production outage or data loss risk) require paging
+the on-call engineer, who must acknowledge within 15 minutes. A postmortem
+document is required within 3 business days for all Sev1 and Sev2
+incidents, following the blameless postmortem template in the wiki.
+
+Testing Standards
+New features require unit test coverage of at least 80% for new code
+paths. Integration tests are required for any change that touches an
+external API integration or the database schema. Flaky tests must be
+quarantined (marked skip with a linked ticket) within 24 hours of being
+identified, not left to fail intermittently in CI.

@@ -1,0 +1,36 @@
+PRODUCT FAQ — CLOUDDESK SUBSCRIPTION PLATFORM
+
+Refunds and Cancellations
+Customers can request a full refund within 30 days of purchase, no questions
+asked. After 30 days, refunds are prorated based on unused subscription
+months, minus a 10% processing fee. To request a refund, contact
+support@clouddesk.example with your order ID.
+
+Subscription Tiers
+CloudDesk offers three tiers: Starter (up to 5 users, $12/user/month),
+Growth (up to 50 users, $19/user/month, includes SSO and audit logs), and
+Enterprise (unlimited users, custom pricing, includes dedicated support and
+a 99.95% uptime SLA).
+
+Data Export
+All plans allow full data export in CSV or JSON format at any time from
+Settings > Data Export. Exported data includes all user records, activity
+logs from the last 12 months, and configuration settings. Enterprise plan
+customers can additionally request a full database dump via support.
+
+API Rate Limits
+The REST API is rate-limited to 100 requests per minute on the Starter
+tier, 500 requests per minute on Growth, and 2,000 requests per minute on
+Enterprise. Rate limit headers are included in every API response.
+
+Security and Compliance
+CloudDesk is SOC 2 Type II certified. All data is encrypted at rest (AES-256)
+and in transit (TLS 1.3). Enterprise customers can request a signed DPA
+(Data Processing Agreement) and access to third-party penetration test
+summaries under NDA.
+
+Downtime and Support SLA
+Enterprise customers with an active SLA receive a 15-minute response time
+guarantee for Severity 1 incidents (complete service outage), and service
+credits equal to 10% of the monthly fee for every hour of downtime beyond
+the 99.95% uptime commitment.
