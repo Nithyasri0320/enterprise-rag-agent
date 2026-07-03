@@ -1,5 +1,9 @@
 # Enterprise RAG Agent
 
+🔗 **[Live Demo](https://enterprise-rag-agent-aty8wbnqdo29sqjudmq4bd.streamlit.app)** · 💻 **[GitHub](https://github.com/Nithyasri0320/enterprise-rag-agent)**
+
+An agentic Retrieval-Augmented Generation system built to demonstrate **enterprise-grade RAG architecture**...
+
 An agentic Retrieval-Augmented Generation system built to demonstrate **enterprise-grade RAG architecture** — not just "embed and retrieve," but the full pattern enterprises actually ship in 2026: hybrid retrieval, reranking, adaptive/agentic control flow, groundedness guardrails, and evaluation.
 
 Built for interview prep on Agentic AI Engineer roles — every component below maps directly to a common interview question.
@@ -43,9 +47,9 @@ This is implemented as a **LangGraph** state machine in `src/agent.py` — not a
 
 ---
 
-## Why each piece exists (interview cheat sheet)
+## Why each piece exist
 
-| Component | File | Interview question it answers |
+| Component | 
 |---|---|---|
 | Hybrid retrieval (vector + BM25, RRF fusion) | `src/retrieval.py` | "Why not just use vector search?" — keyword search catches exact terms/IDs/acronyms that embeddings blur. |
 | Cross-encoder reranking | `src/reranker.py` | "How do you improve precision after retrieval?" — bi-encoders are fast but coarse; a cross-encoder re-scores the actual (query, chunk) pair. |
@@ -124,4 +128,4 @@ Record a short demo GIF/video of the reasoning trace in the UI for your LinkedIn
 
 "I built an agentic RAG system rather than a naive retrieve-and-generate pipeline. It routes queries adaptively, combines vector and keyword search with reciprocal rank fusion, reranks with a cross-encoder, grades retrieved documents for relevance before generating, and checks the final answer's groundedness against the retrieved context — rewriting the query and retrying when retrieval or grounding fails. I evaluate it with RAGAS on faithfulness and context precision rather than eyeballing outputs."
 
-That's a 20-second answer that hits retrieval architecture, agentic design, and evaluation rigor in one breath.
+
